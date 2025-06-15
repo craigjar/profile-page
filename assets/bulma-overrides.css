@@ -1,0 +1,16 @@
+/* Custom overrides for Bulma to keep the dark, music-inspired look */
+body {
+  background: #181A20;
+  color: #F1F1F1;
+}
+.hero.is-dark {
+  background: linear-gradient(90deg, #232526 0%, #414345 100%);
+}
+.card {
+  background: #23243a;
+  color: #F1F1F1;
+  box-shadow: 0 2px 16px #0006;
+}
+.navbar, .footer {
+  background: #181A20;
+}

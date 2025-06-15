@@ -4,30 +4,45 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Project 1: [Title]</title>
-  <link rel="stylesheet" href="../assets/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <link rel="stylesheet" href="../assets/music-icons.css">
+  <link rel="stylesheet" href="../assets/bulma-overrides.css">
 </head>
 <body>
-  <header>
-    <h1>Project 1: [Title]</h1>
-    <a href="../index.html" class="back-link">&larr; Back to Profile</a>
-  </header>
-  <main>
-    <section class="project-details">
-      <h2>Description</h2>
-      <p>[Describe your project here]</p>
-      <h2>Audio Clip</h2>
-      <audio controls>
-        <source src="audio/project1-sample.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-      </audio>
-      <h2>Screenshots</h2>
-      <img src="images/project1-screenshot.png" alt="Project Screenshot" class="project-screenshot">
-      <h2>Google Classroom</h2>
-      <a href="[Google Classroom Link]" target="_blank" class="classroom-link">View in Google Classroom</a>
-    </section>
-  </main>
-  <footer>
-    <p>Grade 10 Music | 2024-2025</p>
+  <section class="hero is-dark is-small">
+    <div class="hero-body has-text-centered">
+      <div class="container">
+        <h1 class="title is-2"><i class="fas fa-guitar"></i> Project 1: [Title]</h1>
+        <a href="../index.html" class="button is-link is-light mt-3"><i class="fas fa-arrow-left"></i> Back to Profile</a>
+      </div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container">
+      <div class="card">
+        <div class="card-content">
+          <h2 class="title is-4"><i class="fas fa-info-circle"></i> Description</h2>
+          <p>[Describe your project here]</p>
+          <hr>
+          <h2 class="title is-4 mt-4"><i class="fas fa-headphones"></i> Audio Clip</h2>
+          <audio controls class="mb-4">
+            <source src="audio/project1-sample.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+          <hr>
+          <h2 class="title is-4 mt-4"><i class="fas fa-image"></i> Screenshots</h2>
+          <figure class="image is-3by2 mb-4">
+            <img src="images/project1-screenshot.png" alt="Project Screenshot" style="border-radius: 12px; box-shadow: 0 2px 16px #0006;">
+          </figure>
+          <hr>
+          <h2 class="title is-4 mt-4"><i class="fab fa-google-classroom"></i> Google Classroom</h2>
+          <a href="[Google Classroom Link]" target="_blank" class="button is-warning is-medium"><i class="fab fa-google-classroom"></i> View in Google Classroom</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer has-text-centered">
+    <p><span class="icon"><i class="fas fa-music"></i></span> Grade 10 Music | 2024-2025</p>
   </footer>
 </body>
 </html>
