@@ -14,3 +14,30 @@ body {
 .navbar, .footer {
   background: #181A20;
 }
+a, .card a, .navbar a {
+  color: #21E6C1;
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+a:hover, .card a:hover, .navbar a:hover {
+  color: #F9D923;
+  text-decoration: underline;
+}
+.button.is-link, .button.is-link.is-light {
+  background-color: #21E6C1;
+  color: #181A20;
+  border: none;
+}
+.button.is-link:hover, .button.is-link.is-light:hover {
+  background-color: #F9D923;
+  color: #181A20;
+}
+.button.is-warning {
+  background-color: #E94560;
+  color: #fff;
+  border: none;
+}
+.button.is-warning:hover {
+  background-color: #F9D923;
+  color: #181A20;
+}
